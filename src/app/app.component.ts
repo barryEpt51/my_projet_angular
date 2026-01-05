@@ -1,13 +1,16 @@
+import { Level } from './models/level.model';
+import { LevelPipe } from './level.pipe';
 import { Component } from '@angular/core';
 import { EmployeeComponent } from "./employee/employee.component";
 
 @Component({
   selector: 'app-root',
-  imports: [EmployeeComponent],
+  imports: [EmployeeComponent,],
   template: `<app-employee/>
   `,
   // styleUrl: './app.component.scss',
   // templateUrl: './app.component.html',  
 })
 export class AppComponent {
+  
 }
